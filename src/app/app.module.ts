@@ -21,10 +21,12 @@ import { map, filter, scan } from 'rxjs/operators';
 
 // Hammerjs for use App in smartphones
 import 'hammerjs';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeroesComponent,
   ],
   imports: [
     BrowserModule,    AppRoutingModule, BrowserAnimationsModule, MatButtonModule,
